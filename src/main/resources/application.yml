@@ -1,0 +1,12 @@
+
+spring:
+  data:
+    elasticsearch:
+      cluster-name: local-es
+      cluster-nodes: 192.168.20.79:9300
+      repositories:
+        enabled: true
+  application:
+    name: es-demo
+server:
+  port: 8905

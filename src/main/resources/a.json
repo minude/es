@@ -1,0 +1,48 @@
+{
+  "computer": {
+    "aliases": {},
+    "mappings": {
+      "computer": {
+        "properties": {
+          "brand": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "model": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "price": {
+            "type": "float"
+          }
+        }
+      }
+    },
+    "settings": {
+      "index": {
+        "refresh_interval": "1s",
+        "number_of_shards": "5",
+        "provided_name": "computer",
+        "creation_date": "1566969150025",
+        "store": {
+          "type": "fs"
+        },
+        "number_of_replicas": "1",
+        "uuid": "O2ZanjpiTeKE6tBivPAyng",
+        "version": {
+          "created": "6060099"
+        }
+      }
+    }
+  }
+}
